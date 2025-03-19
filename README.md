@@ -1,9 +1,9 @@
-# 📊 Customer Churn Prediction
+#  Customer Churn Prediction
 
 This project is a **Customer Churn Prediction** web application built using **Streamlit** and a trained deep learning model in **TensorFlow/Keras**. The app allows users to input customer details and predicts the likelihood of churn.
 
 
-## 🚀 Features
+## Features
 
 ✅ User-friendly **Streamlit UI**  
 ✅ **Predicts churn probability** based on customer details  
@@ -12,10 +12,10 @@ This project is a **Customer Churn Prediction** web application built using **St
 ✅ **Interactive inputs** for real-time experimentation  
 
 
-## 📂 Project Structure
+## Project Structure
 
 
-📦 Customer-Churn-Prediction
+ Customer-Churn-Prediction
 │-- experiments.ipynb        # Jupyter Notebook for initial experiments
 │-- prediction.ipynb         # Model training and evaluation notebook
 │-- app.py                   # Streamlit app for prediction
@@ -27,29 +27,24 @@ This project is a **Customer Churn Prediction** web application built using **St
 ```
 
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1️⃣ Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
-```
 
 ### 2️⃣ Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
 ### 3️⃣ Run the Application
 
-```bash
 streamlit run app.py
-```
 
 
-## 📊 How It Works
+##  How It Works
 
 1️⃣ Enter customer details such as:  
    - **Age, Credit Score, Balance, Geography, Gender, Tenure, etc.**  
@@ -58,7 +53,7 @@ streamlit run app.py
 4️⃣ If the probability **> 0.5**, the customer is **likely to churn**; otherwise, they are **not likely to churn**.  
 
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Streamlit** (for UI)
@@ -67,13 +62,13 @@ streamlit run app.py
 - **Pandas & NumPy** (for data handling)
 - **Pickle** (for saving encoders and scalers)
 
-## 📈 Model Performance
+##  Model Performance
 The model was trained on a customer churn dataset and evaluated using various performance metrics.
 The training and evaluation were conducted using Jupyter Notebooks (prediction.ipynb).
 The final model was saved as a TensorFlow Keras model (model.h5).
 
 
-## 🔚 Conclusion
+## Conclusion
 Customer churn is a crucial challenge for businesses, and predictive analytics can help reduce customer attrition by identifying at-risk customers.
 This project provides a simple yet powerful web application that leverages deep learning to predict churn probability. By integrating advanced machine learning techniques, 
 businesses can take proactive measures to retain valuable customers.
