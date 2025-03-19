@@ -55,12 +55,12 @@ How It Works
 
 Technologies Used
 
-- **Python**
-- **Streamlit** (for UI)
-- **TensorFlow/Keras** (for ML model)
-- **Scikit-learn** (for data preprocessing)
-- **Pandas & NumPy** (for data handling)
-- **Pickle** (for saving encoders and scalers)
+- Python
+- Streamlit (for UI)
+- TensorFlow/Keras (for ML model)
+- Scikit-learn (for data preprocessing)
+- Pandas & NumPy (for data handling)
+- Pickle (for saving encoders and scalers)
 
 Model Performance
 The model was trained on a customer churn dataset and evaluated using various performance metrics.
