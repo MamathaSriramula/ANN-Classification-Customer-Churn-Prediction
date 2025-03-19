@@ -1,0 +1,13 @@
+prefix=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library
+exec_prefix=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library
+libdir=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library/lib
+sharedlibdir=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library/lib
+includedir=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

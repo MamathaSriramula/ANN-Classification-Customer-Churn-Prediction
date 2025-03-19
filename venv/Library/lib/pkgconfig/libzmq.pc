@@ -1,0 +1,12 @@
+prefix=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library
+exec_prefix=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library
+libdir=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library/lib
+includedir=c:/Users/mamat/OneDrive/Documents/Udemy/dlproject/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
